@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to right, #679BC8, #BCDBF1 30%, #BCDBF1 70%, #679BC8 );
+    margin: 0;
+    padding: 0;
+}
+
+.bar{
+     background-color: #96ABBD;
+     padding-top: 2%;
+     margin-bottom: 2%;
+}
+
+#main_block{
+    text-align : center;
+    vertical-align: top;
+    width: 70%;
+    margin:0 15% 0 15%;
+}
+
+#block_for_photo{
+    height: 30vh;
+    text-align : center;
+    display: inline-block;
+}
+
+#my_photo{
+    max-width: auto;
+    max-height: 100%;
+    border-radius: 5%;
+    box-shadow:  0 0 5px 2px;
+}
+
+#block_for_name{
+    vertical-align: top;
+    display: inline-block;
+    width: 70vh;
+}
+
+.main_text{
+    color:#000;
+    }
+
+table{
+font-size: 14px;
+border-collapse: collapse;
+text-align: left;
+}
+
+tr{
+border: 2px solid #FFF;
+}
+
+td{
+border: 2px solid #FFF;
+}
+
+.about_myself{
+    display: inline-block;
+    text-align : justify;
+       
+}
+
+#message{
+    color:red;
+}
