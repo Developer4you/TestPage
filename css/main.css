@@ -1,65 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-    background: linear-gradient(to right, #679BC8, #BCDBF1 30%, #BCDBF1 70%, #679BC8 );
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+/*.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+}*/
+
+.header {
+    background-color: aquamarine;
 }
 
-.bar{
-     background-color: #96ABBD;
-     padding-top: 2%;
-     margin-bottom: 2%;
+.wrapper {
+
 }
 
-#main_block{
-    text-align : center;
-    vertical-align: top;
-    width: 70%;
-    margin:0 15% 0 15%;
-}
-
-#block_for_photo{
-    height: 30vh;
-    text-align : center;
+.sidebar {
     display: inline-block;
+ /*   background-color: #425b91;*/
+    background: linear-gradient(to right, #425b91, #3487b8);
+
+
+    float: left;
+    width: 250px;
+    padding: 10px;
+    color: white;
 }
 
-#my_photo{
-    max-width: auto;
-    max-height: 100%;
-    border-radius: 5%;
-    box-shadow:  0 0 5px 2px;
+.sidebar span {
+    text-align: center;
 }
 
-#block_for_name{
-    vertical-align: top;
+.sidebartext {
+    text-align: justify;
+}
+.sidebar p{
+    text-indent: 25px;
+}
+.avatar{
+    border-radius: 90px;
+    display: block;
+    margin:10px auto;
+    border: 3px solid white;
+}
+
+ul {
+
+}
+
+.content {
     display: inline-block;
-    width: 70vh;
+    background-color: coral;
+    padding: 10px;
 }
 
-.main_text{
-    color:#000;
-    }
-
-table{
-font-size: 14px;
-border-collapse: collapse;
-text-align: left;
+.data {
+    background-color: gold;
 }
 
-tr{
-border: 2px solid #FFF;
-}
-
-td{
-border: 2px solid #FFF;
-}
-
-.about_myself{
-    display: inline-block;
-    text-align : justify;
-       
-}
-
-#message{
-    color:red;
+.posts{
+    background-color: mediumpurple;
 }
