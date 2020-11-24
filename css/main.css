@@ -1,69 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-
+    font-size: 15px;
+    color: white;
 }
-/*.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 20px;
-}*/
 
 .header {
-    background-color: aquamarine;
+    background-color: #445c6e;
+    text-align: center;
+}
+
+.header_content {
+    display: inline;
+}
+
+/*.header_content{
+    display: block;
+    text-align: center;
+}*/
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 250px minmax(518px, 1030px) auto;
 }
 
 .wrapper {
 
+    background-color: #a9a9a9;
 }
 
 .sidebar {
     display: inline-block;
- /*   background-color: #425b91;*/
     background: linear-gradient(to right, #425b91, #3487b8);
-
-
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
     float: left;
-    width: 250px;
+    /*width: 250px;*/
     padding: 10px;
-    color: white;
+    text-align: justify;
 }
 
 .sidebar span {
     text-align: center;
 }
 
-.sidebartext {
+/*.sidebartext {
     text-align: justify;
-}
-.sidebar p{
+}*/
+.sidebar p {
     text-indent: 25px;
 }
-.avatar{
+
+.avatar {
     border-radius: 90px;
     display: block;
-    margin:10px auto;
+    margin: 10px auto;
     border: 3px solid white;
 }
 
 ul {
+    padding-inline-start: 15px;
+}
 
+.request {
+    display: block;
+    margin: 10px auto;
 }
 
 .content {
     display: inline-block;
-    background-color: coral;
+    background-color: #d5d5d5;
     padding: 10px;
+    text-align: center;
 }
 
-.data {
-    background-color: gold;
+.content_boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 
-.posts{
-    background-color: mediumpurple;
+.content_box {
+    background-color: #445c6e;
+    border: 1px solid rgba(0, 0, 0, 1);
+    box-shadow: 4px 0 2px -2px rgba(0, 0, 0, 0.4)
+}
+
+.button {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.post {
+    text-align: center;
 }
